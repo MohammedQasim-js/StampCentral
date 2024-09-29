@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="market.css">
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+    <title>StampCentral</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><h1>StampCentral</h1></div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+
+        <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <section class="content">
+        <h1>New Arrivals from India & USA</h1>
+        <p>Get the best Postage Stamps Now</p>
+        <button>Shop Now</button>
+    </section>
+
+    <h1 class="pheading">Available Products</h1>
+
+    <section class="sec">
+        <div class="products">
+
+            <div class="card">
+                <div class="img"><img src="images/stamp.jpeg" alt=""></div>
+                <div class="desc">India</div>
+                <div class="title">Inaugaration of New Delhi</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="img"><img src="images/stamp2.jpg" alt=""></div>
+                <div class="desc">USA</div>
+                <div class="title">President</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/stamp3.jpg" alt=""></div>
+                <div class="desc">USA</div>
+                <div class="title">President</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/stamp4.jpg" alt=""></div>
+                <div class="desc">Austrailia</div>
+                <div class="title">Kangaroo</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/stamp5.jpg" alt=""></div>
+                <div class="desc">Austrailia</div>
+                <div class="title">President</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/stamp6.jpg" alt=""></div>
+                <div class="desc">India</div>
+                <div class="title">Rajasthan</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/stamp7.jpg" alt=""></div>
+                <div class="desc">India</div>
+                <div class="title">Mahatma Gandhi</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/stamp8.jpg" alt=""></div>
+                <div class="desc">India</div>
+                <div class="title">CV Raman</div>
+                <div class="box">
+                    <div class="price">INR150</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights at <a href="">StampCentral</a></p>
+    </footer>
+
+
+    <script>
+        $(".menu-btn").click(function (){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+    
+</body>
+</html>
